@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html{
+  font-family:Raleway;
+}
+@media  (min-width: 1000px) and (max-width:1390px) {
+  .nav-font{
+    font-size: 14px!important;
+  }
+}
+.nav-font{
+    font-size: 17px;
+  }
+.row-heading{
+  background-color: red;
+  padding: 2% 2% 2% 10%;
+}
+.digitalistic-logo{
+  height: 50px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: red;
+    border-color: white;
+    border: solid;
+}
+.btn-danger:active{
+  color: #fff;
+  background-color: red !important;
+  border-color: white !important;
+  border: solid !important;
+}
+.btn-danger:hover{
+  color: #fff;
+  background-color: red !important;
+  border-color: white !important;
+  border: solid !important;
+}
+.body-section{
+  background-color: rgb(40,40,40);
+  padding: 0px;
+  height: 90%;
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #ffffff;
+    background-color: #494949;
+    /* border-color: #ddd #ddd #fff; */
+    border: 0px;
+}
+.tab-style{
+  background-color: #4a4a4a;
+}
+.nav li a{
+  color: white;
+}
+.nav{
+  border:0px;
+}
+.container-fluid{
+  height: 100vh;
+}
+.table{
+  background-color: white;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 5%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    transform: rotate(-90deg);
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px;
+    height: 25px;
+    background: #282828;
+    cursor: pointer;
+    border-radius:35%;
+}
+
+.slider::-moz-range-thumb {
+    width: 8px;
+    height: 25px;
+    background: #282828;
+    cursor: pointer;
+    border-radius:35%;
+}
+td>a {
+  text-decoration: none;
+}
+.fonts{
+  color: white;
+}

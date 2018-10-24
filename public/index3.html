@@ -1,0 +1,877 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="  width=device-width, initial-scale=1,  user-scalable=no"/>
+    <title>Digitalistic</title>
+    <!-- Adding Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="15x15">
+    <!-- CSS Meterialize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <!-- ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Styles.css">
+    <!-- Circle css -->
+    <link rel="stylesheet" href="css/circle.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+          new WOW().init();
+    </script>
+    <script src="js/jssor.slider-27.0.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript">  
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 3000,
+              $SlideEasing: $Jease$.$Linear,
+              $FillMode: 1,
+              $SlideWidth: 420,
+              $Cols: 6,
+              $Align: 0
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1920;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+        jssor_2_slider_init = function() {
+
+            var jssor_2_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 3000,
+              $SlideEasing: $Jease$.$Linear,
+              $FillMode: 1,
+              /*$PauseOnHover: 4,*/
+              $SlideWidth:250,
+              $Cols: 6,
+              $Align: 0
+            };
+
+            var jssor_2_slider = new $JssorSlider$("jssor_2", jssor_2_options);
+            
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1920;
+
+            function ScaleSlider() {
+                var containerElement = jssor_2_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_2_slider.$ScaleWidth(expectedWidth);
+                    
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+  </head>
+
+  <body>
+         <div class="navbar-fixed">
+                <nav >
+                  <div class="nav-wrapper">
+                        <a href="#" class="brand-logo" ><img src="icon_files/Digitallogo.svg"></a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+                        <ul class="right hide-on-med-and-down wow slideInRight" data-wow-duration="1s">
+                          <li><a href="#home">Home</a></li>
+                          <li><a href="#Services">Service</a></li>
+                          <li><a href="#Gallery">Gallery</a></li>
+                          <li><a href="#Team">Team</a></li>
+                          <li><a href="#About">About</a></li>
+                          <!-- <li><a href="#">Testimonials</a></li> -->
+                          <!-- <li><a href="#Contact">Contact</a></li> -->
+                          <li><a href="#clints">Clients</a></li>
+                          <!-- <li><a href="#">Blog</a></li> -->
+                        </ul>
+
+                        <ul class="side-nav" id="mobile-demo">
+                          <li class="side-close"><a href="#home">Home</a></li>
+                          <li class="side-close"><a href="#Services">Service</a></li>
+                          <li class="side-close"><a href="#Gallery">Gallery</a></li>
+                          <li class="side-close"><a href="#Team">Team</a></li>
+                          <li class="side-close"><a href="#About">About</a></li>
+                          <li class="side-close"><a href="#clints">Clients</a></li>
+                          <!-- <li><a href="#">Testimonials</a></li> -->
+                          <!-- <li><a href="#Contact">Contact</a></li> -->
+                          <!-- <li><a href="#">Blog</a></li> -->
+                          <div class="center-align icon-caption-position-mobile">
+                            <a class="pulse black waves-effect waves-light btn btn-small social twitter" style="border-radius: 100%" href="https://twitter.com/digitalisticbd">
+                              <i class="fa fa-twitter" style="width: 25px;height: 25px"></i>
+                            </a>
+                            <a class="pulse black  waves-effect waves-light btn btn-small social linkedin" style="border-radius: 100%" href="https://www.linkedin.com/company/digitalistic">
+                              <i class="fa fa-linkedin" style="width: 25px;height: 25px"></i>
+                            </a>
+                            <a class="pulse black waves-effect waves-light btn btn-small social facebook" style="border-radius: 100%" href="https://www.facebook.com/digitalistic7/?ref=br_rs">
+                              <i class="fa fa-facebook" style="width: 25px;height: 25px"></i>
+                            </a>
+
+                        </div>
+                        </ul>
+                  </div>
+                </nav>
+         </div>
+
+         <div class="row slider fullscreen scrollspy" id="home" style="margin: 0px;" >
+            <div >
+              <ul class="slides" >
+                <li>
+                  <img src="img/digi-web-banner-2.png">
+                  <div class="caption center-align caption-alignment hide-on-med-and-down">
+                      <h3>Imagination . Innovation . Reality</h3>
+                      <h5 class="light grey-text text-lighten-3">We Define It</h5>
+                  </div>
+                  <div class="caption center-align caption-alignment hide-on-med-and-up">
+                      <h5>Imagination . Innovation . Reality</h5>
+                      <h6 class="light grey-text text-lighten-3">We Define It</h6>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/digi-web-banner-1.png"> <!-- random image -->
+                  <div class="caption center-align caption-alignment">
+                    <h3 style="color: black">Our Product</h3>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/digi-web-banner-3.png"> <!-- random image -->
+                  <div class="caption left-align caption-alignment hide-on-med-and-down">
+                    <h3 style="color: black">Digital Kiosk</h3>
+                    <h5 style="color: black">An amazing innovation for reaching <br>out to your target customers</h5>
+                  </div>
+                  <div class="caption left-align caption-alignment hide-on-med-and-up">
+                    <h5 style="color: black">Digital Kiosk</h5>
+                    <h6 style="color: black">An amazing innovation for reaching <br>out to your target customers</h6>
+                  </div>
+
+                </li>
+              </ul>
+            </div>
+         </div>
+
+          <div class="row click-me">
+
+               <div class="col s12 m7 l8 xl9  click-me-firstcol valign-wrapper  wow slideInLeft">
+
+                    <h3 class="center-align hide-on-med-and-down click-me-text">Know who we are &amp; what we do</h3>
+                    <h3 class="center-align flow-text show-on-med-and-down hide-on-large-only">Know who we are &amp; what we do</h3>
+
+               </div>
+               <div class="col s12 m5 l4 xl3  click-me-firstcol ">
+                    <div style="width: 100%;height: 100%" class="valign-wrapper wow slideInRight">
+                      <button class="btn waves-effect waves-light click-me-btn" type="submit" name="action">Portfolio
+                      <i class="material-icons right " >file_download</i>
+                      </button>
+                    </div>
+               </div>
+         </div>
+
+         <div class="row freePsd scrollspy" id="Services">
+               <div class="col xl1 l1 hide-on-med-and-down psdtofreeSide">
+
+               </div>
+               <div class="col xl10 l10 m12 s12 accent-4 psdtofreeCol  ">
+                    <div class="row psdtofreeInnerRowFirst">
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInDown" data-wow-duration="2s" data-wow-delay=".1s">
+                            <div>
+                              <img src="icon_files/IOT.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>IOT</b></h5>
+                            </div>
+                            <div>
+                              <h6>Solution involving IOT devices<br> which enables automation</h6>
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInDown" data-wow-duration="2s" data-wow-delay=".5s">
+                            <div>
+                              <img src="icon_files/kiosk.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>KIOSK</b></h5>
+                            </div>
+                            <div>
+                              <h6>Cloud enabled digital <br> signage/information kiosk</h6>
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s">
+                            <div>
+                              <img src="icon_files/retail.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>RETAIL</b></h5>
+                            </div>
+                            <div>
+                              <h6>End-cap digital retail solutionfor<br> enhancing customer experience</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row psdtofreeInnerRowSecond ">
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInUp" data-wow-duration="2s" data-wow-delay="1s">
+                            <div>
+                              <img src="icon_files/server.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>SERVER</b></h5>
+                            </div>
+                            <div>
+                              <h6>Cloud based solution, coupled with<br> retail specific service design</h6>
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                            <div>
+                              <img src="icon_files/web design and development.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>WEB DESIGN &amp; DEVELOPMENT</b></h5>
+                            </div>
+                            <div>
+                              <h6>Dynamic webpage design and development <br> with customizable CMS</h6>
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m4 s12 center-align wow bounceInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                            <div>
+                              <img src="icon_files/digital marketing.svg" style="width: 120px;height: 120px;">
+                            </div>
+                            <div>
+                              <h5><b>DIGITAL MARKETING &amp; STRATEGY</b></h5>
+                            </div>
+                            <div>
+                              <h6>Strategic planning and deployment of digital <br> marketing and traffic retention</h6>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <div class="col xl1 l1 hide-on-med-and-down psdtofreeSide">
+
+               </div>
+         </div>
+
+
+         <div class="row gallery"  >
+             <div class="col xl12 l12 m12 s12" style="padding: 0px;">
+                 <div class="row" style="padding: 4% 0 0 0 ">
+                      <div class="col xl12 l12 m12 s12 center-align wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s">
+                        <h3 style="margin: 0px;color: black;"><b>GALLERY</b></h3>
+                        <p class="flow-text" style="margin: 0px;color: black;">A show-reel of our works, clients, services, and expertise laid out for your better understanding</p>
+                      </div>
+                 </div>
+                 <div class="row gallery-innerRow scrollspy " id="Gallery">
+                      <div class="col xl12 l12 m12 s12 OurService" style="padding:0px">
+                        <div class="row" style="padding-bottom: 2%;">
+                        <p class="flow-text center-align wow fadeInRight" style="margin: 0px;color: black;" data-wow-duration="2s" data-wow-delay=".1s"><b>Our Services</b></p>
+                        </div>
+
+                        <div id="jssor_1" class="jasor-top" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:350px;overflow:hidden;visibility:hidden;">
+                          <!-- Loading Screen -->
+                          <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                              <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+                          </div>
+                          <div data-u="slides" class="gallerySlider" >
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/dms.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/web.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/cloud.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/retailsolution.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/rfid.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/iot2.png" />
+                              </div>
+                              
+                              
+                          </div>
+                        </div>
+                      </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+
+         <div class="row team-members "  >
+           <div class="row">
+                <div class="col xl12 l12 m12 s12 "  >
+                    <div class="row">
+                        <div class="col xl12 l12 m12 s12">
+                          <div >
+                          <p class="center-align flow-text wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s" style="color:black"><b>OUR TEAM</b></p>
+                          </div>
+                          <div style="margin-top: -1%;">
+                          <p class="center-align flow-text wow fadeInRight" data-wow-duration="2s" data-wow-delay=".1s" style="color:black">Our experts skilled in various fields dedicated for the services you require.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row scrollspy" id="Team">
+                        <div class="col xl4 l4 m6 s12 wow bounceInleft" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".1s">
+                            <a class="modal-trigger" href="#modal1">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/mustafa bhai .png" alt="" class="personal-img" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Mustafa Lujohn</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>CEO</h6>
+                              </div>
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/mustafa bhai .png" alt="" class="personal-img" style="width: 150px;height: 150px"  >
+                                    <h5 class="center-align"><b>Mustafa Lujohn</b></h5>
+                                    <h6>CEO</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                      <div style="width: 100%">
+                                        <h6 class="left-align flow-text" style="margin:0px">vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. </h6>
+                                        <br>
+                                      </div>
+                                      <div class="inner-content text-center" style="width: 100%">
+
+                                          <div class="c100 p30 left-align ">
+                                              <span>30%</span>
+                                              <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p60 left-align">
+                                              <span>60%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p80 left-align">
+                                              <span>80%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p50 left-align">
+                                              <span>50%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                            
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m6 s12 wow bounceInUp" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".2s">
+                            <a class="modal-trigger" href="#modal2">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/rhythm bhai .png" alt="" class="personal-img cen" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Shahriar Ibn Tofael</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>CTO</h6>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal2" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/rhythm bhai .png" alt="" class="personal-img responsive-img" style="width: 200px;height: 200px">
+                                    <h5 class="center-align"><b>Shahriar Ibn Tofael</b></h5>
+                                    <h6>CTO</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                    <h6 class="left-align flow-text" style="margin:0px">vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis.Mauris porta odio eu risus scelerisque id facilisis ipsum dictum vitae volutpat.</h6>
+                                    <br><br>
+                                      <div class="inner-content text-center">
+
+                                          <div class="c100 p30 left-align ">
+                                              <span>30%</span>
+                                              <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p60 left-align">
+                                              <span>60%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p80 left-align">
+                                              <span>80%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p50 left-align">
+                                              <span>50%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m6 s12 wow bounceInRight" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".3s">
+                            <a class="modal-trigger" href="#modal3">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/tanjin apu.png" alt="" class="personal-img" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Tanjin Nahida Rafiq</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>Project Manager</h6>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal3" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/tanjin apu.png" alt="" class="personal-img responsive-img" style="width: 200px;height: 200px">
+                                    <h5 class="center-align"><b>Tanjin Nahida Rafiq</b></h5>
+                                    <h6>Project Manager</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                    <h6 class="left-align flow-text" style="margin:0px">vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis.Mauris porta odio eu risus scelerisque id facilisis ipsum dictum vitae volutpat.</h6>
+                                    <br><br>
+                                      <div class="inner-content text-center">
+
+                                          <div class="c100 p30 left-align ">
+                                              <span>30%</span>
+                                              <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p60 left-align">
+                                              <span>60%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p80 left-align">
+                                              <span>80%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p50 left-align">
+                                              <span>50%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m6 s12 wow bounceInleft" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".1s">
+                            <a class="modal-trigger" href="#modal4">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/saquib vai.jpg" alt="" class="personal-img" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Ahmed Saquib</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>Visualizer</h6>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal4" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/saquib vai.jpg" alt="" class="personal-img responsive-img" style="width: 200px;height: 200px">
+                                    <h5 class="center-align"><b>Ahmed Saquib</b></h5>
+                                    <h6>Visualizer</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                    <h6 class="left-align flow-text" style="margin:0px">vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc. Vestibulum auctor nisl vel lectus ullamcorper sed pellentesque dolor eleifend. Praesent lobortis magna vel diam mattis sagittis.Mauris porta odio eu risus scelerisque id facilisis ipsum dictum vitae volutpat.</h6>
+                                    <br><br>
+                                      <div class="inner-content text-center">
+
+                                          <div class="c100 p30 left-align ">
+                                              <span>30%</span>
+                                              <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p60 left-align">
+                                              <span>60%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p80 left-align">
+                                              <span>80%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p50 left-align">
+                                              <span>50%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                             
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m6 s12 wow bounceInUp" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".2s">
+                            <a class="modal-trigger" href="#modal5">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/nabil .png" alt="" class="personal-img" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Tahmid Zahin Nabil</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>Back-End Developer</h6>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal5" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/nabil .png" alt="" class="personal-img responsive-img" style="width: 200px;height: 200px">
+                                    <h5 class="center-align"><b>Tahmid Zahin Nabil</b></h5>
+                                    <h6>Back-End Developer</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                    <h6 class="left-align flow-text" style="margin:0px">vestibulum est, eget scelerisque nisl velit eget tellus. Fusce porta facilisis luctus. Integer neque dolor, rhoncus nec euismod eget, pharetra et tortor. Nulla id pulvinar nunc.</h6>
+                                    <br><br>
+                                      <div class="inner-content text-center">
+
+                                          <div class="c100 p30 left-align ">
+                                              <span>30%</span>
+                                              <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p60 left-align">
+                                              <span>60%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p80 left-align">
+                                              <span>80%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                          <div class="c100 p50 left-align">
+                                              <span>50%</span>
+                                              <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                            
+                            </div>
+                        </div>
+                        <div class="col xl4 l4 m6 s12 wow bounceInRight" style="margin-bottom: 2%" data-wow-duration="2s" data-wow-delay=".3s">
+                            <a class="modal-trigger" href="#modal6">
+                              <div class="personal-img-size responsive-img center-align">
+                               <img src="img/Mithun.jpg" alt="" class="personal-img" style="width: 250px;height: 250px;">
+                               </div>
+                            </a>
+                             <div class="center-align">
+                                <h5><b>Mithun Das</b></h5>
+                              </div>
+                              <div class="center-align">
+                                <h6>Front-End Developer</h6>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal6" class="modal">
+                              <div class="modal-content">
+                                <div class="row">
+                                   <div class="col xl4 l4 m12 s12 personal-img-size responsive-img center-align" style="margin-top: .5%;">
+                                    <img src="img/Mithun.jpg" alt="" class="personal-img responsive-img" style="width: 200px;height: 200px" >
+                                    <h5 class="center-align"><b>Mithun Das</b></h5>
+                                    <h6>Front-End Developer</h6>
+                                   </div>
+                                   <div class="col xl8 l8 m12 s12">
+                                    <h6 class="left-align flow-text" style="margin:0px">Ahmed Saquib is a Graphic Designer, occasionally freelancer, is a maniac behind the computer and with power tools, loves making things and getting super glue on his fingers.
+                                    He has a moderately decent sense of interface design and believes to deliver maximum output with minimal elements.Lives on cheeseburger and fries but mostly Coca-Cola.</h6>
+                                    <br><br>
+                                      <div class="row inner-content text-center">
+                                          <div class="col">
+                                              <div><h4 class="center-align">Ai</h4></div>
+                                              <div class="c100 p60 left-align">
+                                                  <span>60%</span>
+                                                  <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                              </div>
+                                          </div>
+
+                                          <div class="col">
+                                              <div><h4 class="center-align">Ps</h4></div>
+                                              <div class="c100 p30 left-align">
+                                                  <span>80%</span>
+                                                  <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div><h4 class="center-align">ps</h4></div>
+                                              <div class="c100 p45 left-align">
+                                                  <span>45%</span>
+                                                  <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                              </div>
+                                          </div>
+                                          <div class="col">
+                                              <div><h4 class="center-align">Ae</h4></div>
+                                              <div class="c100 p75 left-align">
+                                                  <span>75%</span>
+                                                  <div class="slice"><div class="bar "></div><div class="fill"></div></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                         
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+           </div>
+         </div>
+
+
+          <div class="row about scrollspy" id="About">
+              <div class="parallax-container">
+                 <div class="parallax" ><img src="img/aboutbackground.jpeg">
+                 </div>
+                    
+                         <div class="col xl12 l12 m12 s12 about-center-div">
+                             <div class="row about-tag-row">
+                               <p class="center-align flow-text wow fadeInLeft" data-wow-duration="1s" style="color: black;"><b>ABOUT</b></p>
+                             </div>
+                             <div class="row about-center-row wow rollIn" data-wow-duration="2s" data-wow-delay=".1s" style="background-color: rgba(255,255,255,0.8)">
+                                   <div class="col xl9 l9 m12 s12">
+                                    <p class="left-align flow-text"><b>BIOGRAPGHY</b></p>
+                                    <p class="left-align flow-text">We are an information catering, service oriented company where most of our clients are corporation. The service which we provide can be of Hardware or Software related requirements. So brain-storming is key and innovation is our skill-set. To sum up, we are basically a one stop solution provider for all your digital needs. Our services encompass – Digital Strategy, Website Design &amp; Development, Digital Marketing, Digital Display, Server-Side Solution, CRM, IOT Solution and Research.</p>
+                                    </div>
+                                    <div class="col xl3 l3 m12 s12">
+                                      <p class="left-align flow-text"><b>Personal Info</b></p>
+                                      <ul>
+                                          <li><div style="display: inline-block;float: left;"><i class="small material-icons flow-text">call</i></div><div style="padding-top: .7%">&nbsp;01777-799326</div><br></li>
+
+                                          <li><div style="display: inline-block;float: left;"><i class="small material-icons flow-text">mail_outline</i></div><div style="padding-top: .8%">&nbsp; info@digitalistic.net</div><br></li>
+
+                                          <li><div style="display: inline-block;float: left;"><i class="small material-icons flow-text">web</i></div><div style="padding-top: .7%">&nbsp; www.digitalistic.net</div></li>
+                                      </ul>
+                                    </div>
+                             </div>
+                         </div>
+              </div>
+          </div>
+
+          <div class="row clints scrollspy" id="clints" >
+             <div class="col xl12 l12 m12 s12" style="padding: 0px;">
+                 <div class="row">
+                      <div class="col xl12 l12 m12 s12 center-align wow tada" data-wow-duration="3s">
+                        <h3 style="margin-bottom: -5%;color: black;"><b>Our Clients</b></h3>
+                      </div>
+                 </div>
+                 <div class="row gallery-innerRow ">
+                      <div class="col xl12 l12 m12 s12 OurService" style="padding:0px">
+                        <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:350px;overflow:hidden;visibility:hidden;">
+                          <!-- Loading Screen -->
+                          <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                              <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+                          </div>
+                          <div data-u="slides" class="gallerySlider">
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/bashundhara.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/gacl.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/haier.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/littletrees.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/naasbe.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/singer.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/urmi.png" />
+                              </div>
+                              <div data-p="30.00">
+                                  <img data-u="image" src="img/gp.png" />
+                              </div>
+                              
+                          </div>
+                        </div>
+                      </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+
+
+
+          <!-- <div class="row contact-form scrollspy" id="Contact">
+                <div class="col xl1 l1 hide-on-med-and-down" style="height: 1px">
+
+                </div>
+                <div class="col xl10 l10 m12 s12 contact-form-inner">
+                  <div class="row">
+                    <div class="col xl12 l12 m12 s12">
+                    <h4 class="center-align  grey darken-1 " style="color: white;"><b>Contact</b></h4>
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: -15%">
+
+                      <div class="input-field col s6">
+                        <input  id="first_name" type="text" class="validate" style="color: white">
+                        <label for="first_name" style="color: white">First Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input  id="last_name" type="text" class="validate" style="color: white">
+                        <label for="last_name" style="color: white">Last Name</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input  id="email" type="text" class="validate" style="color: white">
+                        <label for="email" style="color: white">Email</label>
+                      </div>
+                      <div class="input-field col s6">
+                        
+                        <input id="icon_telephone" type="tel" class="validate" style="color: white">
+                        <label for="icon_telephone" style="color: white">Phone</label>
+                      </div>
+                      <div class="input-field col s12">
+                        <input  id="subject" type="text" class="validate" style="color: white">
+                        <label for="subject" style="color: white">Subject</label>
+                      </div>
+                      <div class="input-field col s12">
+                        <i class="material-icons prefix" style="color: white">mode_edit</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea" style="color: white"></textarea>
+                        <label for="icon_prefix2" style="color: white">Message</label>
+                      </div>
+                      <div class="center-align" style="margin-top: 15%">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                          <i class="material-icons right " >send</i>
+                        </button>
+                      </div>
+                  </div>
+                </div>
+                <div class="col xl1 l1 hide-on-med-and-down" style="height: 100%">
+
+                </div>
+          </div> -->
+
+          <footer class="row page-footer">
+              <div class="container" >
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">Headquarter</h5>
+                    <p class="grey-text text-lighten-4">Floressa Apartment (Flat A4), House # 23, Road # 4, Block # F, Banani<br>Dhaka, Bangladesh<br>Get Directions<br><br>@digitalistic7<br><a href="mailto:info@digitalistic.net">Send Message</a><br><br>Call 01777-799326</p>
+                  </div>
+                  <!-- <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+              <div class="footer-copyright" style="margin: 0px">
+                <div class="container">
+                &copy; 2018 Digitalistic
+                 <a class="grey-text text-lighten-3 right footer-icons wow tada" data-wow-duration="4s" href="https://twitter.com/digitalisticbd" >
+                   <i class="fa-2x fa fa-twitter icon-hover"  aria-hidden="true"></i>
+                 </a>
+                 <a class="grey-text text-lighten-3 right footer-icons wow tada" data-wow-duration="4s" href="https://www.linkedin.com/company/digitalistic" >
+                   <i class="fa-2x fa fa-linkedin icon-hover" aria-hidden="true"></i>
+                 </a>
+                 <a class="grey-text text-lighten-3 right footer-icons wow tada" data-wow-duration="4s" href="https://www.facebook.com/digitalistic7/?ref=br_rs"  >
+                   <i class="fa-2x fa fa-facebook icon-hover" aria-hidden="true"></i>
+                 </a>
+
+                </div>
+              </div>
+          </footer>
+
+          <script type="text/javascript">jssor_1_slider_init();</script>
+          <script type="text/javascript">jssor_2_slider_init();</script>
+          <script src="https://code.jquery.com/jquery-2.1.2.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+          <script type="text/javascript">
+          $( document ).ready(function() {
+
+            $('.carousel.carousel-slider').carousel({full_Width: true});
+
+            $(".button-collapse").sideNav(
+
+            );
+            
+            $(".side-close").click(function(){
+              $(".button-collapse").sideNav('hide');
+            });
+            
+            $('.materialboxed').materialbox();
+
+            $('.slider').slider(
+              {
+                interval:3000
+              }
+            );
+            $('.parallax').parallax();
+
+
+            $('.scrollspy').scrollSpy({
+              scrollOffset: 0
+            });
+
+
+            /*$('.modal-trigger').leanModal();*/
+          });
+    </script>
+  </body>
+</html>
